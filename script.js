@@ -4,7 +4,7 @@ function carregar(){
     var img = document.getElementById('imagem')
     var hora = document.getElementById('qhora')
     var hora = Number(qhora.value)
-    msg.innerHTML = `Agora são ${hora} horas`
+    msg.innerHTML = `${hora} horas`
     
     if(hora >= 0 && hora < 12){
         img.src = 'dia.jpg'
